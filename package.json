@@ -1,0 +1,38 @@
+{
+  "name": "toolstream-runtime",
+  "version": "0.1.0",
+  "description": "Parallel tool runtime orchestrator with lifecycle events, timeout budgets, and ordered merged output.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "docs"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "prepack": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "runtime",
+    "orchestrator",
+    "tools",
+    "stream"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.1.0"
+  }
+}
