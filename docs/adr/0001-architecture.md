@@ -39,3 +39,5 @@ Runtime consumers need to execute many tools concurrently while keeping determin
 - Per-tool independent event streams: rejected because downstream consumers still needed merged ordering.
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
