@@ -55,3 +55,5 @@ export class AsyncEventChannel<T> {
     }
   }
 }
+
+// Refinement.
