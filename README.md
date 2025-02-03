@@ -78,3 +78,5 @@ npm run build
 See `docs/adr/0001-architecture.md`.
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
