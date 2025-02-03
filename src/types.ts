@@ -130,3 +130,5 @@ export interface StreamExecutionHandle {
   events: AsyncIterable<LifecycleEvent>;
   completed: Promise<ExecutionSummary>;
 }
+
+// Refinement.
