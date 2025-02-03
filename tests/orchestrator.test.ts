@@ -215,3 +215,5 @@ describe("toolstream-runtime", () => {
     expect(summary.results[0]?.status).toBe("success");
   });
 });
+
+// Refinement.
