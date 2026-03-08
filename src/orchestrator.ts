@@ -382,7 +382,3 @@ export class ToolstreamRuntime {
     return resolved;
   }
 }
-
-// Refinement.
-
-// Refinement.
